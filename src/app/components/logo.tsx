@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export function Logo({ light = false }: { light?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
-      <img className="h-10" src="src/media/imgs/Logo-ForTechLab 1.png" alt="logo-ForTechLab" />
+      <img className="h-10" src="/imgs/Logo-ForTechLab 1.png" alt="logo-ForTechLab" />
       {/* <span className="relative grid place-items-center size-9 rounded-xl bg-primary text-primary-foreground overflow-hidden"> */}
         {/* geometric mark */}
         {/* <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
